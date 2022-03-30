@@ -1,0 +1,2 @@
+# SenacoinWeb
+Site Senacoin
