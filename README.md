@@ -1,2 +1,2 @@
 # SenacoinWeb
-Site Senacoin
+Site Senacoin ADM
