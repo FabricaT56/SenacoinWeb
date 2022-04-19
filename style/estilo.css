@@ -15,16 +15,16 @@ html, body{
     margin-top: 20px;
 }
 
-header{
-    position: absolute;
-    width: auto;
+aside{
     top: 0;
+    position: absolute;    
+    width: auto;    
 }
 ul{
     list-style: none;
 }
 
-#lateral{
+#lateral{   
     width: 100%;
     max-width: 1000px;
     height: 100vh;
@@ -99,4 +99,6 @@ nav .listaMenu li a:hover{
     margin: 0 0 0 0;
 }
 
-main
+#topoPagina{
+    display: inline;
+}
