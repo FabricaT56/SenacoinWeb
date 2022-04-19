@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    transition: all .3s ease;
+    font-size: 15px;
+}
+
 html, body{
     padding: 0;
     margin: 0;      
@@ -5,7 +11,7 @@ html, body{
     background: #fff;
 }
 
-h2{
+.sessaoMenu{
     margin-top: 20px;
 }
 
@@ -25,6 +31,7 @@ ul{
     margin: 0 auto;
     background: #e1e1e1;
     border-radius: 0px 0px 100px;
+    overflow: hidden;
 }
 
 .conteudoLateral{
@@ -45,23 +52,51 @@ nav{
 nav .listaMenu{
     display: grid;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px;    
 }
 
 nav .listaMenu li{
-    margin-bottom: 7px;
+    margin-bottom: 10px;    
 }
 
-nav .listaMenu li a{
+nav .listaMenu li a{   
     text-decoration: none;
     color: black;
     padding: .3rem;
-    padding-right: 50px;
+    padding-right: auto;
 }
 
-nav .listaMenu li:hover{
+nav .listaMenu li a:hover{
+    width: 50%;
+    margin: 7px;
     color: white;
     background-color: #ac7100;
     transition: all .3s ease;
     border-radius: 5px 5px 5px 5px;
 }
+
+#sair{
+    height: 50px;
+    margin-top: 20%;
+    align-items: center;
+    text-align: center;    
+    text-decoration: none;
+}
+
+#sair:hover{
+    margin: 20% auto auto auto;   
+    background-color: #ac7100;
+    transition: all .3s ease;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#sair a{
+    text-decoration: none;
+    color:black ;
+}
+
+#sair h2{
+    margin: 0 0 0 0;
+}
+
+main

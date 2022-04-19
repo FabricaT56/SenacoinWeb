@@ -89,7 +89,7 @@ nav .list-menu a:hover{
     margin: 5px;
     color: white;
     background-color: #ac7100;
-    transition: all .3s ease;
+    transition: .3s ease;
     border-radius: 5px 5px 5px 5px;
 }
 
