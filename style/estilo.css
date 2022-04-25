@@ -101,11 +101,7 @@ aside{
     border-radius: 5px 5px 5px 5px;
 }
 
-h1{    
-    font-size: 50px;
-    margin-left: 70px;
-    margin-top: 70px;
-}
+
 
 hr{
     margin-bottom: 70px;
@@ -114,32 +110,6 @@ hr{
 
 #conteudo{    
     width: 1500px;
-}
-
-#form-conteudo{
-    display: block;
-    width: 100%;
-}
-
-#form-conteudo div label{
-    font-size: 25px;
-    margin-left: 70px;
-    margin-right: 20px;
-}
-
-.input-text{
-    text-align: center;
-    background-color: #fff3dd;
-    border-radius: 20px;
-    height: 50px;
-    width: 400px;
-    margin-bottom: 50px;
-}
-
-.input-text:hover{
-    text-align: center;
-    background-color: #f7c973;   
-    align-items: center;
 }
 
 /* inicio cadastro area */
@@ -165,6 +135,9 @@ input{
     margin: 0px;
 }
 
+#label{
+    font-size: 20px;
+}
 
 .txt-titulo {
     height: 30px;
@@ -182,7 +155,10 @@ input{
 #label-titulo{
     margin-left: 350px;
     padding: 0px;
+    font-size: 20px;
 }
+
+
 
 /*observão e descrição*/
 
@@ -192,10 +168,16 @@ input{
     flex-direction: row;
     padding: 50px;
     padding-left: 0px;
+}    
+
+#label-desc{
+        font-size: 20px;
+        padding-left: 9px;
+        
+    }
     
     
-    
-}
+
 
 #desc{
     height: 160px;
@@ -236,4 +218,14 @@ input{
     border-radius: 25px;
     height:32px;
     width:200px;
+}
+
+#conteudo #topo h1{
+    font-size: 35px;
+    margin-left: 5%;
+
+}
+
+#lupa{
+    width: 30px;
 }
