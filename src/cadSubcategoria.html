@@ -18,7 +18,7 @@
                                 <h2 class="sessaoMenu">CADASTROS</h2>
                                 <li><a href="cadArea.html">Área</a></li>
                                 <li><a href="cadCategoria.html">Categoria</a></li>
-                                <li><a href="cadSubcategoria.html">Subcategoria</a></li>
+                                <li><a href="#">Subcategoria</a></li>
                                 <li><a href="#">Itens</a></li>
                                 <li><a href="#">Perfil</a></li>
                                 <li><a href="#">Usuário</a></li>
@@ -44,8 +44,44 @@
             </aside> 
         </header>        
         <section id="conteudo">
+            <div class="titulo">
+                <h1>Cadastro de SUb</h1>
+                <hr>
+                <div id="busca">
+                    <input type="text" id="txtbusca" placeholder="Pesquisar...">
+                    <i class='fas fa-search' style='font-size:24px'></i>
+                </div>
+                <div id="titulo-area">
+                    <div>
+                        <label id="label">Id Área</label>
+            
+                    </div>
+                    <div>
+                        <input type="text" name="txtid" id="txtid" required="required">
+                    </div>
+                    <div>
+                        <label id="label-titulo">Título</label>
+                    </div>
+                    <div>
+                        <input class="txt-titulo" type="text" name="txttitulo" id="txttitulo" required="required">
+                    </div>
+            
+            
+                </div>
+                <div id="desc-area">
+                    <div>
+                        <label id="label-des">Descrição</label>
+                        <textarea class="descricao" name="txtdesc" id="desc" cols="5" rows="10" wrap="hard"></textarea>
+                    </div>
+                    <div>
+            
+                    </div>
+            
+            
+                </div>
+            </div>  
             
         </section>
-                
+               
     </body>
 </html>

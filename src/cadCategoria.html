@@ -1,40 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Categoria</title>
-</head>
-<body>
-    <header>
-        <h1>Cadastro de Categoria</h1>
-        <hr>
-    </header>
-    <main id="conteudo">
-        <form id="form-conteudo">            
-                <div>
-                    <label for="titulo">Titulo</label>
-                    <input class="input-text" id="titulo" type="text" placeholder="Titulo">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Template</title>    
+        <link rel="stylesheet" href="../style/estilo.css">
+    </head>
+    <body>
+        <header>
+            <aside>
+                <div id="lateral">
+                    <div class="conteudoLateral">
+                        <a href="main.html"><img id="logo" src="../img/logos/logo-senacoin-adm.png" alt="HOME"></a>                
+                        <nav id="menu">
+                            <ul class="listaMenu">
+                                <h2 class="sessaoMenu">CADASTROS</h2>
+                                <li><a href="cadArea.html">Área</a></li>
+                                <li><a href="cadCategoria.html">Categoria</a></li>
+                                <li><a href="cadSubcategoria.html">SubCategoria</a></li>
+                                <li><a href="#">Itens</a></li>
+                                <li><a href="#">Perfil</a></li>
+                                <li><a href="#">Usuário</a></li>
+                                <li><a href="#">Unidades</a></li>
+                                <li><a href="#">QRCode</a></li>
+                                <li><a href="#">Promoções</a></li>
+                                <h2 class="sessaoMenu">GERENCIAR</h2>
+                                <li><a href="#">Usuário</a></li>
+                                <li><a href="#">Extrato de Pontos</a></li>
+                                <li><a href="#">Gerar Relatórios</a></li>
+                                <li><a href="#">Central de Promoções</a></li>
+                            </ul>
+                            <div id="sair">
+                                <a href="#sair">
+                                    <img  src="../img/icones/outline_logout_black_24dp.png" alt="">
+                                    <h2>sair</h2>
+                                </a>
+                            </div>
+                        </nav>
+                        <br>                
+                    </div>
                 </div>
-                <div>
-                    <label for="id">ID Categoria</label>
-                    <input type="text" class="input-text" id="id" placeholder="ID Área">
+            </aside> 
+        </header>        
+        <section id="conteudo">
+            <div class="titulo">
+                <h1>Cadastro de área</h1>
+                <hr>
+                <div id="busca">
+                    <input type="text" id="txtbusca" placeholder="Pesquisar...">
+                    <i class='fas fa-search' style='font-size:24px'></i>
                 </div>
-                <div>
-                    <label for="descricao">Descrição</label>
-                    <input class="input-text" id="descricao" type="text" placeholder="Descricao"> 
+                <div id="titulo-area">
+                    <div>
+                        <label id="label">Id Área</label>
+            
+                    </div>
+                    <div>
+                        <input type="text" name="txtid" id="txtid" required="required">
+                    </div>
+                    <div>
+                        <label id="label-titulo">Título</label>
+                    </div>
+                    <div>
+                        <input class="txt-titulo" type="text" name="txttitulo" id="txttitulo" required="required">
+                    </div>
+            
+            
                 </div>
-                <div>
-                    <label for="observacoes">Observações</label>
-                    <input class="input-text" id="observacoes" type="text" placeholder="Observações">
+                <div id="desc-area">
+                    <div>
+                        <label id="label-des">Descrição</label>
+                        <textarea class="descricao" name="txtdesc" id="desc" cols="5" rows="10" wrap="hard"></textarea>
+                    </div>
+                    <div>
+            
+                    </div>
+            
+            
                 </div>
-                <div>
-                    <label for="descricao">Status Ativo</label>
-                    <input id="descricao" type="radio" placeholder="Descricao"> 
-                </div>           
-        </form>
-    </main>
-</body>
+            </div>  
+            
+        </section>
+                
+    </body>
 </html>
-

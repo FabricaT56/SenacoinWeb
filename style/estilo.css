@@ -123,6 +123,7 @@ hr{
 
 #form-conteudo div{
 
+
 }
 
 #form-conteudo div label{
@@ -144,4 +145,100 @@ hr{
     text-align: center;
     background-color: #f7c973;   
     align-items: center;
+}
+
+/* inicio cadastro area */
+input{
+    height: 30px;
+    width:295px ;   
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 0px;
+    background-color:#e2e3e0;
+    opacity: 0.9;
+    outline: none;
+    margin-left: 10%;
+    
+}
+
+#titulo-area{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 9px;
+    margin: 0px;
+}
+
+
+.txt-titulo {
+    height: 30px;
+    width:295px ;   
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 0px;
+    background-color: #fdffe9;
+    opacity: 0.9;
+    outline: none;
+    margin-left: 10%;
+}
+
+#label-titulo{
+    margin-left: 350px;
+    padding: 0px;
+}
+
+/*observão e descrição*/
+
+
+#desc-area{
+    
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 0px;
+    
+    
+    
+}
+
+#desc{
+    height: 160px;
+    width:320px ;   
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 50px;
+    background-color: #fdffe9;
+    opacity: 0.9;
+    outline: none;
+    
+    
+}
+
+.descricao{
+    position:absolute;
+    margin: 3px;
+}
+
+#busca {
+    width: 40%;
+    height: 30%;
+    margin-top: 5px;
+    margin-left: auto;
+    display: flex;
+    border:none;
+    border-radius:25px;
+    width:240px;
+}
+
+#txtbusca {
+    background-color:transparent;
+    padding-left: 10px;
+    display: flex;
+    font-size:14px;
+    border:solid 0.5px;
+    border-radius: 25px;
+    height:32px;
+    width:200px;
 }
