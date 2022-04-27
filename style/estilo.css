@@ -4,69 +4,70 @@
     font-size: 15px;
 }
 
-html, body{
+html,
+body {
     padding: 0;
-    margin: 0;      
+    margin: 0;
     font-family: Verdana, Tahoma, sans-serif;
     background: #fff;
     box-sizing: border-box;
     display: flex;
 }
 
-aside{
+aside {
     top: 0;
-    height: 1000px;   
-    width: 320px;       
+    height: 1000px;
+    width: 320px;
 }
 
-#lateral{   
+#lateral {
     width: 100%;
-    
+
     height: 1000px;
     margin: 0 auto;
     background: #e1e1e1;
-    border-radius: 0px 0px 100px;        
+    border-radius: 0px 0px 100px;
 }
 
-.conteudoLateral{
+.conteudoLateral {
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 50px;
 }
 
-#logo{
+#logo {
     margin: 50px 5px 15px 5px;
 }
 
-#menu{
+#menu {
     width: 100%;
     max-width: 800px;
 }
 
-#menu .listaMenu{
+#menu .listaMenu {
     display: grid;
     padding-left: 20px;
     padding-right: 20px;
-    list-style: none;   
+    list-style: none;
 }
 
-#menu .listaMenu .sessaoMenu{
+#menu .listaMenu .sessaoMenu {
     margin-top: 20px;
     font-size: 20px;
 }
 
-#menu .listaMenu li{
+#menu .listaMenu li {
     margin-bottom: 10px;
-}    
+}
 
-#menu .listaMenu li a{   
+#menu .listaMenu li a {
     text-decoration: none;
     color: black;
     padding: .3rem;
     padding-right: auto;
 }
 
-#menu .listaMenu li a:hover{
+#menu .listaMenu li a:hover {
     width: 50%;
     margin: 7px;
     color: white;
@@ -75,27 +76,27 @@ aside{
     border-radius: 5px 5px 5px 5px;
 }
 
-#sair{
-    padding: 5px;   
+#sair {
+    padding: 5px;
     width: 55px;
-    margin: 20% auto auto auto; 
+    margin: 20% auto auto auto;
     align-items: center;
-    text-align: center;    
+    text-align: center;
     text-decoration: none;
 }
 
-#sair a{
+#sair a {
     text-decoration: none;
-    color:black ;
+    color: black;
 }
 
-#sair h2{
+#sair h2 {
     margin: 0 0 0 0;
 }
 
-#sair:hover{
+#sair:hover {
     color: aliceblue;
-    margin: 20% auto auto auto;   
+    margin: 20% auto auto auto;
     background-color: #ac7100;
     transition: all .3s ease;
     border-radius: 5px 5px 5px 5px;
@@ -103,31 +104,31 @@ aside{
 
 
 
-hr{
+hr {
     margin-bottom: 70px;
     width: 100%;
 }
 
-#conteudo{    
+#conteudo {
     width: 1500px;
 }
 
 /* inicio cadastro area */
-input{
+input {
     height: 30px;
-    width:295px ;   
+    width: 295px;
     border-radius: 30px;
     border: 1px solid black;
     font-size: 14px;
     padding: 0px;
-    background-color:#e2e3e0;
+    background-color: #e2e3e0;
     opacity: 0.9;
     outline: none;
     margin-left: 10%;
-    
+
 }
 
-#titulo-area{
+#titulo-area {
     display: flex;
     flex-direction: row;
     padding: 50px;
@@ -135,13 +136,13 @@ input{
     margin: 0px;
 }
 
-#label{
+#label {
     font-size: 20px;
 }
 
 .txt-titulo {
     height: 30px;
-    width:295px ;   
+    width: 295px;
     border-radius: 30px;
     border: 1px solid black;
     font-size: 14px;
@@ -152,7 +153,7 @@ input{
     margin-left: 10%;
 }
 
-#label-titulo{
+#label-titulo {
     margin-left: 350px;
     padding: 0px;
     font-size: 20px;
@@ -163,25 +164,25 @@ input{
 /*observão e descrição*/
 
 
-#desc-area{
-    
+#desc-area {
+
     flex-direction: row;
     padding: 50px;
     padding-left: 0px;
-}    
+}
 
-#label-desc{
-        font-size: 20px;
-        padding-left: 9px;
-        
-    }
-    
-    
+#label-desc {
+    font-size: 20px;
+    padding-left: 9px;
+
+}
 
 
-#desc{
+
+
+#desc {
     height: 160px;
-    width:320px ;   
+    width: 320px;
     border-radius: 30px;
     border: 1px solid black;
     font-size: 14px;
@@ -189,12 +190,12 @@ input{
     background-color: #fdffe9;
     opacity: 0.9;
     outline: none;
-    
-    
+
+
 }
 
-.descricao{
-    position:absolute;
+.descricao {
+    position: absolute;
     margin: 3px;
 }
 
@@ -204,28 +205,110 @@ input{
     margin-top: 5px;
     margin-left: auto;
     display: flex;
-    border:none;
-    border-radius:25px;
-    width:240px;
+    border: none;
+    border-radius: 25px;
+    width: 240px;
 }
 
 #txtbusca {
-    background-color:transparent;
+    background-color: transparent;
     padding-left: 10px;
     display: flex;
-    font-size:14px;
-    border:solid 0.5px;
+    font-size: 14px;
+    border: solid 0.5px;
     border-radius: 25px;
-    height:32px;
-    width:200px;
+    height: 32px;
+    width: 200px;
 }
 
-#conteudo #topo h1{
+#conteudo #topo h1 {
     font-size: 35px;
     margin-left: 5%;
 
 }
 
-#lupa{
+#lupa {
     width: 30px;
+}
+
+/* Conteudo Dashboard */
+
+
+.itens {
+    padding: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.area {
+    display: inline-block;
+    width: max-content;
+}
+
+.narea {
+    display: inline-block;
+    padding: 5px;
+    align-content: stretch;
+    text-align: initial;
+}
+
+#area {
+    padding: 10px;
+}
+
+progress {
+    padding: 15px;
+    min-inline-size: -webkit-fill-available;
+    width: 100%;
+    text-decoration-color: black;
+}
+
+.cadperfil {
+    width: max-content;
+}
+
+#icoperfil {
+    display: flex;
+}
+
+#imgperfil {
+    height: 120px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.calendario {
+    width: max-content;
+}
+
+/*Responsivo*/
+@media (max-width: 400px) {
+
+    h3,
+    h4 {
+        margin-bottom: 5px;
+    }
+
+    .home-icon {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        right: 90%;
+        width: 100%;
+        height: 100%;
+        background: #e1e1e1;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu a {
+        text-align: center;
+        margin-bottom: 5px;
+    }
 }
