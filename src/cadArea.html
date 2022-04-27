@@ -44,44 +44,46 @@
             </aside> 
         </header>        
         <section id="conteudo">
-            <div class="titulo">
-                <h1>Cadastro de área</h1>
-                <hr>
+            <div id="topo">
+                <h1 id="titulo">Cadastro de Área<hr></h1>
+                
                 <div id="busca">
                     <input type="text" id="txtbusca" placeholder="Pesquisar...">
-                    <i class='fas fa-search' style='font-size:24px'></i>
+                    <img id="lupa" src="../img/icones/busca.png" alt="busca">
                 </div>
-                <div id="titulo-area">
-                    <div>
-                        <label id="label">Id Área</label>
+
+            </div>
             
-                    </div>
-                    <div>
-                        <input type="text" name="txtid" id="txtid" required="required">
-                    </div>
-                    <div>
-                        <label id="label-titulo">Título</label>
-                    </div>
-                    <div>
-                        <input class="txt-titulo" type="text" name="txttitulo" id="txttitulo" required="required">
-                    </div>
-            
-            
+            <div id="titulo-area">
+                <div>
+                    <label id="label">Id Área</label>
+        
                 </div>
-                <div id="desc-area">
-                    <div>
-                        <label id="label-des">Descrição</label>
-                        <textarea class="descricao" name="txtdesc" id="desc" cols="5" rows="10" wrap="hard"></textarea>
-                    </div>
-                    <div>
-            
-                    </div>
-            
-            
+                <div>
+                    <input type="text" name="txtid" id="txtid" required="required">
                 </div>
-            </div>  
+                <div>
+                    <label id="label-titulo">Título</label>
+                </div>
+                <div>
+                    <input class="txt-titulo" type="text" name="txttitulo" id="txttitulo" required="required">
+                </div>
+        
+        
+            </div>
+            <div id="desc-area">
+                <div>
+                    <label id="label-desc">Descrição</label>
+                    <textarea class="descricao" name="txtdesc" id="desc" cols="5" rows="10" wrap="hard"></textarea>
+                </div>
+                <div>
+        
+                </div>
+        
+        
+            </div>
             
         </section>
-               
+        
     </body>
 </html>
