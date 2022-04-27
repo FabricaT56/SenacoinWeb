@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Template</title>    
+        <title>Senacoin | Cadastro de Categoria</title>    
         <link rel="stylesheet" href="../style/estilo.css">
     </head>
     <body>
@@ -12,14 +12,14 @@
             <aside>
                 <div id="lateral">
                     <div class="conteudoLateral">
-                        <a href="main.html"><img id="logo" src="../img/logos/logo-senacoin-adm.png" alt="HOME"></a>                
+                        <a href="index.html"><img id="logo" src="../img/logos/logo-senacoin-adm.png" alt="HOME"></a>                
                         <nav id="menu">
                             <ul class="listaMenu">
                                 <h2 class="sessaoMenu">CADASTROS</h2>
-                                <li><a href="cadArea.html">Área</a></li>
-                                <li><a href="cadCategoria.html">Categoria</a></li>
-                                <li><a href="#">Subcategoria</a></li>
-                                <li><a href="#">Itens</a></li>
+                                <li><a href="cadastro-de-area.html">Área</a></li>
+                                <li><a href="cadastro-de-categoria.html">Categoria</a></li>
+                                <li><a href="cadastro-de-subcategoria.html">Subcategoria</a></li>
+                                <li><a href="cadastro-de-itens.html">Itens</a></li>
                                 <li><a href="#">Perfil</a></li>
                                 <li><a href="#">Usuário</a></li>
                                 <li><a href="#">Unidades</a></li>
@@ -45,45 +45,27 @@
         </header>        
         <section id="conteudo">
             <div id="topo">
-                <h1 id="titulo">Cadastro de Subcategoria<hr></h1>
-                
+                <h1 id="titulo">Cadastro de Categoria<hr></h1>
                 <div id="busca">
                     <input type="text" id="txtbusca" placeholder="Pesquisar...">
                     <img id="lupa" src="../img/icones/busca.png" alt="busca">
+                </div>                
+            </div>            
+            <div id="divisoes-conteudo">
+                <div class="campos-conteudo">
+                    <label for="">ID Categoria</label>
+                    <input type="text" name="txt-id" id="input-id-area" class="inputs" required="required">
+                </div>                
+                <div class="campos-conteudo">
+                    <label for="">Título</label>
+                    <input type="text" id="input-titulo" class="inputs" required="required">
                 </div>
-
-            </div>
-            
-            <div id="titulo-area">
-                <div>
-                    <label id="label">Id Área</label>
-        
-                </div>
-                <div>
-                    <input type="text" name="txtid" id="txtid" required="required">
-                </div>
-                <div>
-                    <label id="label-titulo">Título</label>
-                </div>
-                <div>
-                    <input class="txt-titulo" type="text" name="txttitulo" id="txttitulo" required="required">
-                </div>
-        
-        
-            </div>
-            <div id="desc-area">
-                <div>
-                    <label id="label-desc">Descrição</label>
-                    <textarea class="descricao" name="txtdesc" id="desc" cols="5" rows="10" wrap="hard"></textarea>
-                </div>
-                <div>
-        
-                </div>
-        
-        
-            </div>
-            
+                <div class="campos-conteudo">                    
+                    <label for="">Descrição</label>
+                    <textarea class="" id="text-descricao" class="inputs" cols="5" rows="10" wrap="hard"></textarea>
+                </div>       
+            </div> 
         </section>
-               
+                
     </body>
 </html>

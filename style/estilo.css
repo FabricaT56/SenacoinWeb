@@ -5,6 +5,8 @@
 }
 
 html, body{
+    width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;      
     font-family: Verdana, Tahoma, sans-serif;
@@ -14,15 +16,14 @@ html, body{
 }
 
 aside{
-    top: 0;
-    height: 1000px;   
+    /* top: 0; */
+    height: 100%;   
     width: 320px;       
 }
 
 #lateral{   
-    width: 100%;
-    
-    height: 1000px;
+    width: 100%;    
+    height: 100%;
     margin: 0 auto;
     background: #e1e1e1;
     border-radius: 0px 0px 100px;        
@@ -108,23 +109,26 @@ hr{
     width: 100%;
 }
 
-#conteudo{    
-    width: 1500px;
+#conteudo{       
+    width: 100%;
+    height: 100vh;
 }
 
 /* inicio cadastro area */
-input{
-    height: 30px;
-    width:295px ;   
+.inputs, #text-descricao{
+    height: 40px;
+    width:295px ;  
     border-radius: 30px;
     border: 1px solid black;
-    font-size: 14px;
-    padding: 0px;
-    background-color:#e2e3e0;
-    opacity: 0.9;
+    font-size: 25px;
+    padding-left: 10px;
+    background-color:#fdffe9;    
     outline: none;
-    margin-left: 10%;
-    
+    margin-left: 10%;    
+}
+
+#text-descricao{
+    height: 300px;
 }
 
 #titulo-area{
@@ -135,8 +139,10 @@ input{
     margin: 0px;
 }
 
-#label{
-    font-size: 20px;
+label{
+    font-size: 25px;
+    font-weight: bolder;
+    white-space: nowrap;
 }
 
 .txt-titulo {
@@ -155,6 +161,23 @@ input{
 #label-titulo{
     margin-left: 350px;
     padding: 0px;
+    font-size: 20px;
+}
+
+#divisoes-conteudo{
+    width: 50%;
+    min-width: 530px;
+    display: block;
+    align-items: center;    
+}
+
+.campos-conteudo{
+    display: flex;
+    justify-content: space-between;
+    margin: 5em;
+}
+
+.campos-conteudo label{
     font-size: 20px;
 }
 
@@ -198,17 +221,6 @@ input{
     margin: 3px;
 }
 
-#busca {
-    width: 40%;
-    height: 30%;
-    margin-top: 5px;
-    margin-left: auto;
-    display: flex;
-    border:none;
-    border-radius:25px;
-    width:240px;
-}
-
 #txtbusca {
     background-color:transparent;
     padding-left: 10px;
@@ -220,12 +232,31 @@ input{
     width:200px;
 }
 
+#topo{
+    display: flex;
+}
+
+#titulo{
+    width: 100%;
+}
+
 #conteudo #topo h1{
     font-size: 35px;
     margin-left: 5%;
+}
 
+#busca {
+    position: relative;
+    width: 40%;
+    height: 30%;
+    margin: 30px;
+    display: flex;
+    border:none;
+    border-radius:25px;
+    width:240px;
 }
 
 #lupa{
+    height: 30px;
     width: 30px;
 }

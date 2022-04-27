@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Template</title>    
+        <title>Senacoin | Cadastro de Subcategoria</title>    
         <link rel="stylesheet" href="../style/estilo.css">
     </head>
     <body>
@@ -35,7 +35,6 @@
                                 <a href="#sair">
                                     <img  src="../img/icones/outline_logout_black_24dp.png" alt="">
                                     <h2>sair</h2>
-                                    
                                 </a>
                             </div>
                         </nav>
@@ -44,5 +43,28 @@
                 </div>
             </aside> 
         </header>        
+        <section id="conteudo">
+            <div id="topo">
+                <h1 id="titulo">Cadastro de Subcategoria<hr></h1>
+                <div id="busca">
+                    <input type="text" id="txtbusca" placeholder="Pesquisar...">
+                    <img id="lupa" src="../img/icones/busca.png" alt="busca">
+                </div>                
+            </div>            
+            <div id="divisoes-conteudo">
+                <div class="campos-conteudo">
+                    <label for="">ID Subcategoria</label>
+                    <input type="text" name="txt-id" id="input-id-area" class="inputs" required="required">
+                </div>                
+                <div class="campos-conteudo">
+                    <label for="">Título</label>
+                    <input type="text" id="input-titulo" class="inputs" required="required">
+                </div>
+                <div class="campos-conteudo">                    
+                    <label for="">Descrição</label>
+                    <textarea class="" id="text-descricao" class="inputs" cols="5" rows="10" wrap="hard"></textarea>
+                </div>       
+            </div> 
+        </section>               
     </body>
 </html>
