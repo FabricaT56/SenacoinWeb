@@ -60,20 +60,38 @@ aside{
     margin-bottom: 10px;
 }
 
-#menu .listaMenu li a {
+#menu .listaMenu li a, span {
     text-decoration: none;
     color: black;
     padding: .3rem;
     padding-right: auto;
 }
 
-#menu .listaMenu li a:hover {
+#menu .listaMenu li a:hover, span:hover{
     width: 50%;
     margin: 7px;
     color: white;
     background-color: #ac7100;
     transition: all .3s ease;
     border-radius: 5px 5px 5px 5px;
+    list-style: block;
+    cursor: pointer;
+}
+
+#tipos-usuarios, #opcoes-qrcode{
+    list-style: none;
+    display: none;
+}
+
+span:hover #tipos-usuarios{
+    width: 50%;
+    margin: 7px;
+    color: white;
+    background-color: #ac7100;
+    transition: all .3s ease;
+    border-radius: 5px 5px 5px 5px;
+    list-style: block;
+    cursor: pointer;
 }
 
 #sair {
