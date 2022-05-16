@@ -132,6 +132,8 @@ hr {
     height: 100vh;
 }
 
+
+
 /* inicio cadastro area */
 .inputs, #text-descricao{
     height: 40px;
@@ -183,16 +185,18 @@ label{
 }
 
 #divisoes-conteudo{
-    width: 50%;
+    width: 900px;
+    height: 100%;
     min-width: 530px;
     display: block;
-    align-items: center;    
+    margin: auto;
+    
 }
 
 .campos-conteudo{
     display: flex;
     justify-content: space-between;
-    margin: 5em;
+    margin: 3em;
 }
 
 .campos-conteudo label{
@@ -328,6 +332,111 @@ progress {
 
 .calendario {
     width: max-content;
+}
+
+/*Botão Status*/
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.checkbox{
+    position: absolute;
+    top: 85%;
+    left:45%;
+    padding-left: 50px;
+    transform: translate(-50%,-50%);
+}
+
+input[type="checkbox"]{
+    position: relative;
+    width: 40px;
+    height: 18px;
+    outline: none;
+    -webkit-appearance: none;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 1px 1px #ac7100;
+}
+
+input:checked[type="checkbox"]{
+
+    background-color: white;
+}
+
+input[type = "checkbox"]::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #ac7100;
+    border-radius: 50%;
+    transform: scale(1.2);
+    transition: .5s;
+    cursor: pointer;
+}
+
+input:checked[type="checkbox"]::before{
+    left: 20px;
+
+}
+
+#status{
+    
+    top:60%;
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+#ativado{
+    font-size: 25px;
+    padding-left: 30px;
+    top:60%;
+    color: #ac7100;
+}
+
+
+/*Botão voltar/confirmar*/
+
+#botao{
+    
+    margin-top:850px;
+    margin-left: 45%;
+    position: absolute;
+    
+
+}
+
+#botao2{
+    margin-top:850px;
+    margin-left: 80%;
+    position: absolute;
+}
+
+.botao{
+    background-color: #9d9d9d;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.botao2{
+    background-color:#ac7100;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
 }
 
 /*Responsivo*/
