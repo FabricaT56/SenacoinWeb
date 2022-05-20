@@ -135,6 +135,7 @@ hr {
 
 
 /* inicio cadastro area */
+
 .inputs, #text-descricao{
     height: 40px;
     width:295px ;  
@@ -400,7 +401,7 @@ input:checked[type="checkbox"]::before{
 }
 
 
-/*Botão voltar/confirmar*/
+/*Botão status/confirmar*/
 
 #botao{
     
@@ -438,6 +439,17 @@ input:checked[type="checkbox"]::before{
     color: white;
     cursor: pointer;
 }
+
+
+/* Cadastro de itens */
+
+
+#items{
+    
+}
+
+
+
 
 /*Responsivo*/
 @media (max-width: 400px) {
