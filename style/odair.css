@@ -1,0 +1,104 @@
+
+#menulist{
+    margin-left: 75px;
+    margin-top: -50px;
+    position: absolute;
+    
+    
+}
+select {
+    background-color: #ac7100;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    border: none;
+    height: 40px;
+    width: 130px;
+    margin-left:50px;
+  }
+
+
+  #buscaextrato{
+    width: 400%;
+    height: 30%;
+    margin-top: -50px;
+    margin-left: 60px;
+    border:15px;
+    border-radius:25px;
+    width: 10%;
+}
+
+#txtbusca{
+    height: 35px;
+    width: 350px;
+}
+
+#lupaextrato{
+    margin-top: -284px;
+    margin-left: 190px;
+    width: 30px; 
+}   
+
+.nome1{
+    margin-left: 650px;
+    margin-top: 10px;
+    width: 180px;    
+}
+#menupontosganhos{
+    margin-left: -150px;
+    margin-top: -42px;
+}
+
+#item{
+    font-size: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 250px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+#data{
+    font-size: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 250px;
+    margin-left: 450px;  
+    position: absolute;
+}
+
+#pontosGanhos{
+    font-size: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 250px;
+    margin-left: 750px;  
+    position: absolute; 
+}
+
+#barra1{
+    margin-top: 250px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+#barra2{
+    margin-top: 250px;
+    margin-left: 600px;
+}
+
+.cancelar{
+    margin-top: 500px;
+    margin-left: 130px;
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+
+}
